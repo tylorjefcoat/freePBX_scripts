@@ -1,6 +1,12 @@
 
 # FreePBX 16 Slow Reload Patch Script
 
+## NOTE:
+patch is required to be installed before the script can run 
+```
+yum install patch -y
+```
+
 ## Overview
 This script is designed to patch specific files in a FreePBX 16 installation to address issues related to slow reloads. It specifically modifies files in the core module, focusing on PJSip class and functions.
 
